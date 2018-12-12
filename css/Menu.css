@@ -3,6 +3,11 @@ body{
   border: 0px;
   padding: 0px;
   box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-size: 100%;
+  font-size: 1em;
+  line-height: 2;
 }
 
 header{
@@ -27,6 +32,15 @@ font-family: 'Luckiest Guy', sans-serif;
 font-size: 25px;
 background-color: #FF522D;
 }
+.Ultimo{
+font-family: 'Luckiest Guy', sans-serif;
+font-size: 18px;
+background-color: #FF522D;
+}
+.subir{
+
+  color: #000;
+}
 
 nav ul li{
   display:inline;
@@ -45,61 +59,17 @@ color: #000 ;
   font-size: 16px;
 }
 
+.Secundario li{
+  padding: 0px;
+}
+
  nav ul li a:hover {
   color: #FFDC00;
 }
 
 
-.sliderLens{
-    padding: 0px;
-    box-sizing: border-box;
-    width:100vw;
-    height: 100vh;
-    overflow: hidden;
-    position: relative;
-}
-.sliderTrack{
-    position: absolute;
-    top:0px;
-    left:0px;
-    transition: left 1s ease-in-out;
-
-    clear: both;
-}
-
-.sliderTrack img{
-    height: 100vh;
-}
-
-.sliderItem{
-   position: relative;
-   display: inline-block;
-   width:100vw !important;
-   overflow:hidden;
-   padding:0px;
-   margin:0px;
-}
-
-.sliderItem h2{
-    font-size: 3em;
-    background-color: rgba(255,255,255,0.8);
-    color:#333;
-    padding: 1em;
-    border-radius: 5px;
-}
-
-.sliderItem.center h2{
-    position:absolute;
-    width:380px;
-    left:calc(50vw - 190px);
-}
-
-.sliderItem.middle h2{
-    position:absolute;
-    top:50vh;
-}
-
-.sliderItem.top h2{
-    position:absolute;
-    top:10vh;
+footer{
+  text-align: center;
+  background-color: #000;
+  color: #fff;
 }

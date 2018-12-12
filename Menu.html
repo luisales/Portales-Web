@@ -5,41 +5,75 @@
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />+
       <link href="https://fonts.googleapis.com/css?family=Luckiest+Guy" rel="stylesheet">
       <link rel="stylesheet" href="css/Menu.css">
+      <link rel="stylesheet" href="css/Slider.css">
+      <link rel="stylesheet" href="css/grid.css" />
+
 
       <title>Pollos</title>
    </head>
    <body>
-      <header>
-         <nav class="Secundario">
-               <ul>
-                 <li><a href="#">Historia</a></li>
-                 <li><a href="#">Empleo</a></li>
-                 <li><a href="#">Donaciones</a></li>
-                 <li><a href="#">Calidad de Comida</a></li>
+      <header class="row" id="home">
+         <nav class="Secundario" class="col-s-12 col-9 col-l-6">
+               <ul  class="row">
+                 <li  class="col-s-9 col-m-1 col-2 col-offest-m-1 col-offset-1"><a href="#">Historia</a></li>
+                 <li  class="col-s-9 col-m-1 col-2  col-offest-m-1 col-offset-1"><a href="#">Empleo</a></li>
+                 <li  class="col-s-9 col-m-1 col-2  col-offest-m-1 col-offset-1"><a href="#">Donaciones</a></li>
+                 <li  class="col-s-9 col-m-1 col-2  col-offest-m-1 col-offset-1"><a href="#">Calidad de Comida</a></li>
                  </ul>
                </nav>
-               <nav class="Principal">
-                 <ul>
-                   <li><a href="#">MENU</a></li>
-                   <li><a href="#">OFERTAS</a></li>
-                   <li><a href="#">UBICACION</a></li>
-                   <li><a href="#"></a></li>
+               <nav class="Principal" class="col-s-12 col-9 col-l-6">
+                 <ul class="row">
+                   <li ><a href="#">MENU</a></li>
+                   <li ><a href="#">OFERTAS</a></li>
+                   <li ><a href="#">UBICACION</a></li>
+                   <li ><a href="#"></a></li>
                  </ul>
          </nav>
-      </header>
-      <section class="sliderLens">
-        <section class="sliderTrack">
-            <div class="center middle sliderItem">
-                <h2>Este es un Mensaje</h2>
-                <img src="imgs/m1.jpg">
-            </div><div class="center top sliderItem">
-                <img data-src="imgs/m2.jpg">
-                <h2>Otro Mensaje</h2>
-            </div><div class="center top sliderItem">
-                <img data-src="imgs/m3.jpg">
-                <h2>Otro Mensaje 2</h2>
-        </section>
+         <section class="sliderLens">
+           <section class="sliderTrack">
+               <div class="center middle sliderItem">
+                   <h2>Este es un Mensaje</h2>
+                   <img src="imgs/m1.jpg">
+               </div><div class="center top sliderItem">
+                   <img data-src="imgs/m2.jpg">
+                   <h2>Otro Mensaje</h2>
+               </div><div class="center top sliderItem">
+                   <img data-src="imgs/m3.jpg">
+                   <h2>Otro Mensaje 2</h2>
+           </section>
 
-      <script src="js/slider.js"></script>
+      </header>
+      <main class="row">
+        <article class="col-s-12 col-12 col-l-12">
+            <p>
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero labore fugit dolore, nisi unde aperiam, veritatis et quisquam quam nesciunt id adipisci, culpa sit error natus mollitia inventore molestiae blanditiis. Lorem ipsum dolor sit amet, consectetur
+                adipisicing elit. Vero labore fugit dolore, nisi unde aperiam, veritatis et quisquam quam nesciunt id adipisci, culpa sit error natus mollitia inventore molestiae blanditiis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero
+                labore fugit dolore, nisi unde aperiam, veritatis et quisquam quam nesciunt id adipisci, culpa sit error natus mollitia inventore molestiae blanditiis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero labore fugit dolore,
+                nisi unde aperiam, veritatis et quisquam quam nesciunt id adipisci, culpa sit error natus mollitia inventore molestiae blanditiis. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero labore fugit dolore, nisi unde aperiam, veritatis
+                et quisquam quam nesciunt id adipisci, culpa sit error natus mollitia inventore molestiae blanditiis.
+
+            </p>
+            <img data-src="">
+            <img data-src="">
+        </article>
+        <article class="col-s-12 col-12 col-l-12">
+            <p class="col-s-12 col-8 col-l-8">
+                LLamanos 9999999999 - 9999999999999999
+            </p>
+            <img class="col-s-12 col-4 col-l-4" data-src="imgs/sd.png">
+        </article>
+      </main>
+      <nav class="Ultimo">
+        <ul>
+          <li><a href="#">MENU</a></li>
+          <li><a href="#">OFERTAS</a></li>
+          <li><a href="#">UBICACION</a></li>
+          <li><a href="#home">subir /\</a></li>
+        </ul>
+      </nav>
+<script src="js/slider.js"></script>
     </body>
+    <footer>
+        <span>Derechos Reservados &copy;UNICAH 2018</span>
+    </footer>
  </html>

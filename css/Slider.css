@@ -1,5 +1,7 @@
-
-
+body{
+    padding: 0px;
+    margin: 0px;
+}
 .sliderLens{
     padding: 0px;
     box-sizing: border-box;
@@ -32,15 +34,15 @@
 
 .sliderItem h2{
     font-size: 3em;
-
-    color:#fff;
+    background-color: rgba(255,255,255,0.8);
+    color:#333;
     padding: 1em;
     border-radius: 5px;
 }
 
 .sliderItem.center h2{
     position:absolute;
-    width:280px;
+    width:380px;
     left:calc(50vw - 190px);
 }
 

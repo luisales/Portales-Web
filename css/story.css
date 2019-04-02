@@ -1,0 +1,108 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: 0px;
+  padding: 0px;
+  line-height: 1.5;
+}
+.hero{          /*Primera Imagen*/
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  width:100%;
+  height:75vh;
+  min-height: 520px;
+  background-color: #000;
+  background-image: url('../imgs/IMG_2672.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  color:#fff;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  font-size: 20px;
+
+}
+
+.herotext {           /*Texto Primera imagen*/
+  max-width: 480px;
+  width:100%;
+  margin-top:1.5em;
+  padding:1em;
+  font-size: 30px;
+}
+
+
+#first-block   {    /*Primer bloque*/
+  background-color: #FA9632;
+  color: #fff;
+  height:inherit;
+  padding: 5px;
+}
+
+#first-block p {
+  font-size: 30px;
+  text-align: center;
+  padding: 15px;
+  margin: 10px;
+}
+
+#first-block div {
+  display: block;
+}
+
+img {
+  width: 100%;
+  height: 90%;
+  padding-left: 5px;
+}
+
+#about-us article{
+  width: 47%;
+  box-sizing: border-box;
+  float: right;
+  text-align: justify;
+  background-position: bottom;
+  font-size: 20px;
+  padding-top: 50px;
+  margin-right:20px;
+
+}
+
+#about-us div{
+  display: inline-block;
+}
+
+#imagen{
+  box-sizing: border-box;
+  width: 50%;
+
+}
+
+#second-block   {    /*Segundo bloque*/
+  background-color: #FD8F0A;
+  color: #fff;
+  height:350px;
+  padding: 5px;
+}
+
+#second-block p {
+  font-size: 30px;
+  text-align: center;
+  padding: 5px;
+  margin: 2px;
+}
+
+#second-block div {
+  display: block;
+}
+
+
+.center {text-align:center}
+.left {text-align: left}
+.right {text-align:right}
+.no-margin {margin: 0px !important}
+.col-m-4 { width: 33.33%  }
+.col-m-8 { width: 66.66%  }
+.col-s-12 {width: 100%}
+.col-m-6 { width: 50%  }
